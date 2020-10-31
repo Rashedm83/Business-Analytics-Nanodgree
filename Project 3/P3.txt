@@ -1,0 +1,55 @@
+/* Query1 - Who is the best-performing Sales support agent in 2011?*/ 
+
+SELECT e.FirstName, e.LastName, Count(c.customerid ) Customers,sum (i.total) as invoice
+FROM invoice i
+JOIN invoiceline il
+ON il.invoiceid = i.invoiceid
+JOIN customer c
+ON c.customerid = i.customerid
+JOIN Employee e
+ON e.EmployeeId = c.SupportRepId
+WHERE invoicedate between "2011-01-01" and "2012-01-01" 
+AND e.Title = 'Sales Support Agent'
+GROUP BY 1, 2
+ORDER BY 4 DESC
+
+/* Query 2 - Who are the top spending customers?*/
+SELECT c.CustomerId, c.Email,c.firstname,c.lastname,sum (i.total) as Spent 
+FROM invoice i
+JOIN invoiceline il
+ON il.invoiceid = i.invoiceid
+JOIN customer c
+ON c.customerid = i.customerid
+GROUP BY 1,2,3
+ORDER BY 5 
+LIMIT 10 
+
+/* Query 3 - Who is the highest-spending customer in Pop?*/
+
+SELECT c.firstname, c.lastname, g.name Genre, sum (i.Total)Total
+FROM customer c
+JOIN invoice i
+ON c.customerid = i.customerid
+JOIN invoiceline il
+ON i.invoiceid = il.invoiceid
+JOIN track t
+ON t.trackid = il.trackid
+join genre G
+ON g.genreid= t.genreid
+WHERE g.name = 'Pop'
+GROUP BY 1,2,3
+ORDER BY 4 DESC 
+LIMIT 10
+
+/* Query 4 - Who was the top earned artist?*/
+
+SELECT a.Name, sum (i.Total) Total
+FROM Invoice i
+JOIN invoiceline il
+ON i.invoiceid = il.invoiceid
+JOIN Artist a
+ON a.ArtistId = i.InvoiceId
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 10
+
