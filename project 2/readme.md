@@ -1,6 +1,6 @@
 #### Project 2
 >
->In this project,we work wuth a neww York Stock Exchange (NYSE) dataset that contains fundamental financial data for 500 companies.
+>In this project,we work wuth a New York Stock Exchange (NYSE) dataset that contains fundamental financial data for 500 companies.
 >
 >I used Excel to analyze the data set:
 >
