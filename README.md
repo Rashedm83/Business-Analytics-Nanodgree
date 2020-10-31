@@ -8,4 +8,4 @@ model business scenarios, and communicate our findings with
 >
 >* **Tableau**.
 >
->here](https://www.udacity.com/course/business-analytics-nanodegree--nd098) is a link to the course. 
+>[here](https://www.udacity.com/course/business-analytics-nanodegree--nd098) is a link to the course. 
