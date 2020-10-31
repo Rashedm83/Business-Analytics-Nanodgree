@@ -1,6 +1,6 @@
-### Business Analytics Nanodgree
+#### Business Analytics Nanodgree
 
-##project1
+###project1
 >
 >In this project, we learned how to draw insights from interactive **Tableau**dashboards.
 >
