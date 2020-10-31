@@ -1,6 +1,4 @@
-#### Business Analytics Nanodgree
-
-**Project1**
+####**Project1**
 >
 >In this project, we learned how to draw insights from interactive **Tableau**dashboards, here is an insight for Malaria deaths in Africa.
 >
