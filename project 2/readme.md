@@ -6,7 +6,7 @@
 >
 >* **Calculate summary statistics using Excel.** 
 >
->* ** Create data visualizations.**
+>* **Create data visualizations.**
 >
 >* **Data Cleaning.**
 >
