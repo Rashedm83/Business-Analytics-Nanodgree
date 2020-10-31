@@ -4,7 +4,3 @@
 >
 >
 >[here](https://www.udacity.com/course/business-analytics-nanodegree--nd098) is a link to the course. 
-
-
-
-
