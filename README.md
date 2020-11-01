@@ -17,7 +17,7 @@
 >* Create a dashboard for a Profit and Loss Statement
 >* Create a financial model for a company forecasts out the Gross Profit, Operating Profit, or EBIT for two more years using three scenarios (Best case, Weak >case, and Base case).
 >
->##SQL:
+>## SQL:
 >### Data Analysis
 >
 >* Data Manipulation
@@ -25,7 +25,7 @@
 >### Project:
 >* Analyze the Chinook Database (music store database)
 >
-## Tableau:
+>## Tableau:
 >
 >### Data visualization
 >
