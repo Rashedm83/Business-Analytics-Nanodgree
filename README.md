@@ -1,7 +1,7 @@
 # Business Analytics Nanodgree
 
 >### In this course, we learn the foundation of data skils to any industry, and how to collect and analyze data,
-model business scenarios, and communicate our findings using:
+>model business scenarios, and communicate our findings using:
 >
 >* **SQL**.
 >
