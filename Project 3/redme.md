@@ -1,6 +1,6 @@
-#### Project 3
+# Project 3
 >
->In this project, I work with a dataset reflecting data collected from a digital music store.
+>### In this project, I work with a dataset reflecting data collected from a digital music store.
 >
 >* **I write SQL to query a single table and multiple tables.** 
 >
